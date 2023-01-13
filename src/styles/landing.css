@@ -1,0 +1,132 @@
+.landing {
+	position: relative;
+	padding: 0px 3rem;
+}
+
+.landing-text {
+	width: 35%;
+	color: white;
+}
+
+.landing-text h1 {
+	font-size: max(2.5rem, 4vw);
+}
+
+.landing-text b {
+	color: #E1FF2B;
+}
+
+.landing-text p {
+	margin: 1.5rem 0px;
+	line-height: 2rem;
+}
+
+.get-started {
+	display: flex;
+	align-items: center;
+	gap: 1.25rem;
+}
+
+.get-started a {
+	background: #E1FF2B;
+	color: black;
+	padding: 1rem 1.5rem;
+	border-radius: 10px;
+	font-weight: bold;
+	border: 2px solid transparent;
+	transition: 0.3s all ease;
+}
+
+.get-started a:hover {
+	background: transparent;
+	border-color: #E1FF2B;
+	color: #E1FF2B;
+}
+
+.stats {
+	margin: 3rem 0px;
+	display: flex;
+	gap: 1.5rem;
+}
+
+.stats p {
+	color: white;
+}
+
+.stats h1 {
+	margin-top: 0.5rem;
+	color: #E1FF2B;
+}
+
+.nft-showcase {
+	position: absolute;
+	right: 3rem;
+	top: 0px;
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+	background-size: cover;
+}
+
+.nft-row {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.nft-showcase img:hover {
+	transition: 0.3s all ease;
+	transform: scale(1.03);
+}
+
+@media (max-width: 1056px) {
+	.landing {
+		display: flex;
+		align-items: center;
+		gap: 3rem;
+		flex-direction: column;
+	}
+
+	.landing-text {
+		width: 500px;
+		max-width: 95%;
+	}
+
+	.get-started {
+		width: 500px;
+		max-width: 95%;
+	}
+
+	.get-started img {
+		display: none;
+	}
+
+	.get-started a {
+		text-align: center;
+		width: 100%;
+		padding: 1.5rem 0px;
+	}
+
+	.nft-showcase {
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		justify-content: center;
+		position: relative;
+		left: 0px;
+	}
+
+	.nft-showcase img {
+		width: 200px;
+		height: 200px;
+		width: 30vw;
+		height: 30vw;
+	}
+}
+
+@media (max-width: 568px) {
+	.stats {
+		text-align: center;
+		flex-direction: column;
+	}
+}
