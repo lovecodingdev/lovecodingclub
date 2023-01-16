@@ -5,7 +5,8 @@ import {
   TbBrandSkype,
   TbBrandDiscord,
   TbBrandGithub,
-  TbBrandTelegram
+  TbBrandTelegram,
+  TbBrandLinkedin
 } from "react-icons/tb";
 
 const Footer = () => {
@@ -19,6 +20,24 @@ const Footer = () => {
             type="email"
             placeholder="Email"
             value="andrew.lee.lcc@gmail.com"
+            readOnly
+          />
+        </div>
+        <div className="input-field">
+          <TbBrandLinkedin />
+          <input
+            type="Linkedin"
+            placeholder="Linkedin"
+            value="https://www.linkedin.com/in/andrew-lee-lcc"
+            readOnly
+          />
+        </div>
+        <div className="input-field">
+          <TbBrandGithub />
+          <input
+            type="text"
+            placeholder="Github"
+            value="https://github.com/luckyman828"
             readOnly
           />
         </div>
