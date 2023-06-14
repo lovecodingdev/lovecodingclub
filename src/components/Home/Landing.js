@@ -17,9 +17,9 @@ const Landing = () => {
       </div>
       <div className="landing-text">
         <h1 style={{ textAlign: "center" }}>
-          I am <b>Andrew Lee </b>
+          <b>Love Coding Club </b>
         </h1>
-        <p>Full Stack & Blockchain Developer</p>
+        <p>Full Stack & Blockchain Developers</p>
       </div>
       <div className="get-started">
         <a

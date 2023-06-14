@@ -19,16 +19,7 @@ const Footer = () => {
           <input
             type="email"
             placeholder="Email"
-            value="andrew.lee.lcc@gmail.com"
-            readOnly
-          />
-        </div>
-        <div className="input-field">
-          <TbBrandLinkedin />
-          <input
-            type="Linkedin"
-            placeholder="Linkedin"
-            value="https://www.linkedin.com/in/andrew-lee-lcc"
+            value="lovecodingdev@gmail.com"
             readOnly
           />
         </div>
@@ -37,7 +28,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Github"
-            value="https://github.com/luckyman828"
+            value="https://github.com/lovecodingdev"
             readOnly
           />
         </div>
@@ -46,7 +37,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Skype"
-            value="live:.cid.374c50cc076c763f"
+            value="live:.cid.caefd7681f0e2320"
             readOnly
           />
         </div>
@@ -55,7 +46,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Telegram"
-            value="@wildhorse2080"
+            value="@mntmaster"
             readOnly
           />
         </div>
